@@ -1,0 +1,1 @@
+This is a sample App built using Facebook React
