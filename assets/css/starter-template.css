@@ -1,0 +1,35 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.posts {
+    list-style-image: url(img/up.gif);
+    margin: 1em 0 3em 0;
+    padding-left: 1.5em; }
+.posts li {
+    margin-bottom: 1em;
+    font-weight: 600;
+    position: relative; }
+.posts li a {
+    text-decoration: none;
+    color: #424242; }
+.posts li:hover .url {
+    opacity: 1; }
+.posts .url {
+    font-weight: 200;
+    font-size: 0.85em;
+    margin-left: 0.5em;
+    opacity: 0.5; }
+.posts .url:before {
+    content: "("; }
+.posts .url:after {
+    content: ")"; }
+.posts small {
+    display: block;
+    font-weight: 200;
+    font-size: 0.8em;
+}
