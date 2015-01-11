@@ -6,7 +6,6 @@ var App = React.createClass({
             <Header />
             <div className="container">
                 <div className="starter-template">
-                    <h1>Bootstrap starter template</h1>
                     <NewsList />
                 </div>
             </div>

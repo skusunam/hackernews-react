@@ -7,7 +7,7 @@ body {
 }
 
 .posts {
-    list-style-image: url(img/up.gif);
+    list-style-image: url(../img/up.gif);
     margin: 1em 0 3em 0;
     padding-left: 1.5em; }
 .posts li {

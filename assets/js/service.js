@@ -25,7 +25,7 @@ var NewsList = React.createClass({
     render: function() {
         return <ol className="posts">
                 {this.state.posts.map(function(post){
-                    return <li>{post.title}</li>
+                    return <Item key={post.id} post={post} />
                 })}
                </ol>
     }
